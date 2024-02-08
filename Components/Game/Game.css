@@ -1,0 +1,72 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.score-container p {
+    font-size: 2rem; /* Increased font size */
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 300px; /* Adjust margin-top to lower the buttons */
+}
+
+.button {
+    background-color: #fff; /* Set background color to white */
+    border: 5px solid #000; /* Add a thick black border */
+    border-radius: 50%; /* Make the button rounded */
+    padding: 20px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button img {
+    width: 140px; /* Adjust image size */
+    height: 140px; /* Adjust image size */
+    border-radius: 50%; /* Make the image rounded */
+}
+
+.button:hover {
+    background-color: rgba(240, 240, 240, 0.8); /* Change background color on hover with transparency */
+}
+
+.outcome-message {
+    font-size: 2rem; /* Increased font size */
+    font-weight: bold;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
